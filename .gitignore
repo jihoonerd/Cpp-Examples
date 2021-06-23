@@ -1,3 +1,7 @@
+# IDE
+settings.json
+tasks.json
+
 # Prerequisites
 *.d
 
