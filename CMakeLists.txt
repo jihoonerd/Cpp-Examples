@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
 add_executable(CppExamples main.cpp lib/read_csv.cpp)
-target_include_directories(CppExamples PUBLIC ${CMAKE_SOURCE_DIR}/includes)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/includes)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
